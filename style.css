@@ -580,3 +580,71 @@ a {
         margin-top: 50px;
     }
 }
+/* =================================
+   MOBILE LANDING PAGE
+================================= */
+
+@media (max-width: 700px) {
+
+    .welcome {
+        min-height: 100vh;
+        padding: 30px 20px;
+    }
+
+    /* Welcome heading */
+
+    .welcome-heading {
+        padding: 15px 0 30px;
+    }
+
+    .welcome-heading h1 {
+        font-size: clamp(2.2rem, 10vw, 3.2rem);
+        line-height: 1.08;
+        letter-spacing: -.045em;
+    }
+
+    .intro {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    /* Stack panels vertically */
+
+    .choices {
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: unset;
+        gap: 18px;
+    }
+
+    .choice {
+        min-height: 320px;
+        padding: 25px;
+    }
+
+    /* Academic panel */
+
+    .academic-title,
+    .hobbies-title {
+        top: 22px;
+        left: 24px;
+        font-size: 2rem;
+    }
+
+    /* Personal photograph */
+
+    .hobbies-choice {
+        background-size: cover;
+        background-position: center 55%;
+        background-repeat: no-repeat;
+        min-height: 380px;
+    }
+
+    /* Footer */
+
+    .landing-footer {
+        flex-wrap: wrap;
+        font-size: .55rem;
+        padding-top: 22px;
+    }
+}
