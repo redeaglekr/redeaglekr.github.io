@@ -1,1 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Research — Sreenivasan K. R.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="inner-page research-page">
+
+    <!-- Navigation -->
+
+    <nav class="site-nav">
+
+        <a class="wordmark" href="index.html">SKR<span>.</span></a>
+
+        <div>
+            <a href="academic.html">Academic</a>
+            <a href="research.html" aria-current="page">Research</a>
+            <a href="hobbies.html">Personal</a>
+        </div>
+
+    </nav>
+
+
+    <main class="inner-main research-main">
+
+        <p class="eyebrow">02 / Research</p>
+
+        <h1>
+            Understanding stars,<br>
+            <em>exploring our Galaxy.</em>
+        </h1>
+
+        <p class="lead">
+            My research spans observational astronomy, from the
+            detection and characterisation of exoplanets to the
+            study of stellar oscillations and the application of
+            asteroseismology to Galactic archaeology. I work with
+            large photometric and spectroscopic datasets to
+            investigate the properties, structure and evolution
+            of stars.
+        </p>
+
+
+        <!-- Contents -->
+
+        <nav class="research-toc">
+
+            <span>ON THIS PAGE</span>
+
+            <a href="#pre-phd">Pre-PhD experience</a>
+            <a href="#phd">PhD contributions</a>
+            <a href="#numax">Measuring νmax</a>
+            <a href="#wavelength">Wavelength dependence</a>
+            <a href="#tess-cvz">TESS red giants</a>
+            <a href="#metal-poor">Ultra metal-poor star</a>
+
+        </nav>
+
+
+        <div class="rule"></div>
+
+
+        <!-- Pre-PhD experience -->
+
+        <section class="research-section" id="pre-phd">
+
+            <p class="eyebrow">01 — Background</p>
+
+            <h2>Pre-PhD experience</h2>
+
+            <p>
+                My interest in planets has shaped my path as a
+                researcher. I began exploring this interest through
+                exoplanets, focusing on their detection and
+                characterisation using the radial velocity (RV)
+                method. During a summer project at the Indian
+                Institute of Astrophysics, I re-derived the RVs of
+                the planet-hosting star HD 189733 using
+                <strong>HARPS</strong> (High Accuracy Radial velocity
+                Planet Searcher) spectra. This gave me a deeper
+                understanding of high-resolution stellar
+                spectroscopy, echelle spectrographs, and different
+                stages of data reduction.
+            </p>
+
+            <p>
+                For my Master's project, I carried out exoplanet
+                detection from a complementary direction using
+                transit photometry. Working with <strong>K2</strong>
+                light curves, I gained experience in retrieving
+                light curves from the MAST archive, searching for
+                transits, modelling transit signals and stellar
+                limb darkening, and fitting models using Python.
+            </p>
+
+            <p>
+                My research then moved from focusing on individual
+                systems to large datasets of objects. As a Junior
+                Research Fellow at the Indian Institute of
+                Astrophysics, I used machine-learning techniques to
+                classify sources as stars, galaxies, or quasars
+                using photometric magnitudes from
+                <strong>SDSS</strong> (Sloan Digital Sky Survey)
+                and <strong>GALEX</strong> (Galaxy Evolution
+                Explorer). This introduced me to SQL (Structured
+                Query Language), feature engineering, different
+                machine-learning algorithms and the analysis of
+                large datasets.
+            </p>
+
+            <p>
+                I then moved to Israel, where I resumed my work on
+                exoplanet detection and characterisation. I applied
+                a likelihood-estimation-based algorithm to
+                approximately fifteen years of RV measurements from
+                archival HARPS observations to detect exoplanets.
+                Among several detections, we identified two
+                promising cold Jupiters orbiting the subgiant star
+                HD 103891 and the main-sequence star HD 105779
+                (Sreenivas et al. 2022).
+            </p>
+
+            <p>
+                This work strengthened my knowledge of RV analysis
+                and statistical inference, including likelihood
+                minimisation, hypothesis testing, sampling
+                techniques and Gaussian Process modelling of
+                stellar activity.
+            </p>
+
+            <p>
+                In parallel, I gained experience with ground-based
+                photometric observations at the WISE Observatory
+                and served as a Co-Investigator on several observing
+                proposals with the <strong>Las Cumbres Observatory
+                (LCO)</strong> network. I extracted and detrended
+                LCO photometry to search for transits of
+                <strong>CARMENES</strong> RV exoplanet candidates
+                and to measure stellar rotation periods. These
+                results contributed to several publications
+                (Caballero et al. 2022; Enric et al. 2023;
+                Jorge et al. 2025).
+            </p>
+
+            <p>
+                Together, these experiences allowed me to work
+                across different aspects of observational
+                astronomy, from data acquisition to analysing
+                large datasets and modelling RV and photometric
+                time series. Over the course of my research,
+                working on planets made me realise that
+                understanding them requires an equally detailed
+                understanding of their host stars. This naturally
+                drew me towards stellar physics and motivated my
+                PhD research, where asteroseismology offered a way
+                to probe stars in much greater detail.
+            </p>
+
+        </section>
+
+
+        <div class="rule"></div>
+
+
+        <!-- PhD contributions -->
+
+        <section class="research-section" id="phd">
+
+            <p class="eyebrow">02 — Doctoral research</p>
+
+            <h2>PhD contributions</h2>
+
+            <p>
+                During my PhD, I studied the properties of stellar
+                oscillations and used them to characterise stars
+                and improve our understanding of the Galaxy. My
+                work gradually progressed from developing a method
+                to measure asteroseismic parameters from
+                <strong>Kepler</strong> light curves, to
+                understanding oscillations and granulation at
+                different wavelengths, to analysing tens of
+                thousands of stars observed by <strong>TESS</strong>
+                (Transiting Exoplanet Survey Satellite), and
+                eventually to the asteroseismic characterisation
+                of an ultra metal-poor star.
+            </p>
+
+            <p>
+                The following projects highlight this progression
+                and the expertise I developed during my PhD.
+            </p>
+
+
+            <!-- Project 1 -->
+
+            <article class="research-project" id="numax">
+
+                <p class="eyebrow">Project 01</p>
+
+                <h3>
+                    A simple method to measure ν<sub>max</sub>
+                    for asteroseismology
+                </h3>
+
+                <p>
+                    Two fundamental diagnostics of solar-like
+                    oscillations are the frequency of maximum
+                    power (ν<sub>max</sub>) and the large frequency
+                    separation (Δν). When combined with precise
+                    effective temperatures and parallaxes from
+                    Gaia, ν<sub>max</sub> alone can provide strong
+                    constraints on stellar parameters.
+                </p>
+
+                <p>
+                    With the large number of light curves expected
+                    from upcoming space missions such as Roman
+                    (Nancy Grace Roman Space Telescope) and PLATO
+                    (PLAnetary Transits and Oscillations of stars),
+                    there is a need for simple and robust methods
+                    that can be applied to large stellar samples.
+                    A fast and simple method was therefore
+                    developed to measure ν<sub>max</sub> without
+                    removing the granulation background.
+                </p>
+
+                <p>
+                    Previous studies have shown that different
+                    choices of background models generally produce
+                    ν<sub>max</sub> values within the measurement
+                    uncertainties. The resulting stellar radii
+                    were compared with independent estimates from
+                    Gaia, showing slightly reduced discrepancies
+                    and improved precision. The analysis further
+                    demonstrated that granulation does not
+                    significantly affect the measurement of
+                    ν<sub>max</sub> or the resulting stellar radii.
+                </p>
+
+                <p>
+                    This provides a simple approach for deriving
+                    fundamental stellar properties, including
+                    mass, radius and surface gravity, from stellar
+                    oscillations (Sreenivas et al. 2024).
+                </p>
+
+            </article>
+
+
+            <!-- Project 2 -->
+
+            <article class="research-project" id="wavelength">
+
+                <p class="eyebrow">Project 02</p>
+
+                <h3>
+                    Testing the wavelength dependence of
+                    oscillation and granulation using Kepler and TESS
+                </h3>
+
+                <p>
+                    Kjeldsen & Bedding (2011) proposed that the
+                    power associated with oscillations and
+                    granulation should scale with the wavelength
+                    of the passband in a similar way. Since
+                    solar-like oscillations and granulation are
+                    both associated with near-surface convection,
+                    their amplitudes (or power) and their
+                    variations are expected to be closely related.
+                </p>
+
+                <p>
+                    The different passbands of Kepler and TESS
+                    provide an opportunity to test this wavelength
+                    dependence observationally. Red giants
+                    observed by both missions were used to compare
+                    the oscillation and granulation signals
+                    measured at different wavelengths.
+                </p>
+
+                <p>
+                    The analysis showed that both oscillation and
+                    granulation power decrease towards the redder
+                    TESS passband, with the TESS-to-Kepler power
+                    ratios agreeing with theoretical predictions
+                    (Lund et al. 2019). Importantly, the mean
+                    power ratios for oscillations and granulation
+                    were also found to agree with each other,
+                    providing observational evidence that the
+                    two signals have a similar wavelength
+                    dependence. The analysis further showed no
+                    clear dependence of these ratios on the
+                    stellar parameters considered in the study.
+                </p>
+
+                <p>
+                    An important outcome of this work was that
+                    amplitude measurements are sensitive to the
+                    choice of light-curve product and the way the
+                    photometry is extracted and detrended.
+                    Different TESS light-curve products can
+                    produce different measured amplitudes,
+                    highlighting the need for particular care
+                    when studying stellar variability through
+                    amplitude measurements.
+                </p>
+
+                <p>
+                    This work therefore involved extensive testing
+                    of TESS pixel-level data, light-curve
+                    extraction and detrending, along with
+                    binary-star modelling using PHOEBE and the
+                    calculation of bolometric corrections from
+                    stellar atmosphere models.
+                </p>
+
+                <p>
+                    The results also motivated questions that are
+                    directly relevant to future Roman observations
+                    in the infrared wavelengths, where both
+                    oscillation and granulation signals are
+                    weaker. This information could help mitigate
+                    stellar variability in the detection and
+                    characterisation of planets. More generally,
+                    this study highlights the value of
+                    simultaneous multi-band observations for
+                    understanding and characterising stellar
+                    oscillations and granulation
+                    (Sreenivas et al. 2025).
+                </p>
+
+            </article>
+
+
+            <!-- Project 3 -->
+
+            <article class="research-project" id="tess-cvz">
+
+                <p class="eyebrow">Project 03</p>
+
+                <h3>
+                    Red giants in the TESS Continuous Viewing Zones:
+                    Global asteroseismology of 19,000 oscillating
+                    red giants
+                </h3>
+
+                <p>
+                    The last two decades have demonstrated the
+                    power of space-based photometry for detecting
+                    solar-like oscillations in large numbers of
+                    stars. In particular, the long and nearly
+                    continuous observations from Kepler enabled
+                    precise asteroseismic characterisation of red
+                    giants, providing stellar masses, radii and
+                    surface gravities with typical precisions of
+                    7%, 2.4% and 0.01 dex, respectively (Yu et al.
+                    2018).
+                </p>
+
+                <p>
+                    TESS has extended this opportunity to stars
+                    across almost the entire sky, although its
+                    shorter observing baseline generally limits
+                    the quality of asteroseismic measurements.
+                    The TESS Continuous Viewing Zones (CVZs),
+                    however, provide light curves spanning
+                    multiple years and therefore offer an
+                    opportunity to achieve Kepler-like precision.
+                </p>
+
+                <p>
+                    The aim of this project was to identify
+                    oscillating red giants in the TESS CVZs and
+                    determine their global asteroseismic
+                    properties. Starting from a sample of about
+                    72,000 stars, I carried out sample selection,
+                    light-curve detrending, oscillation detection,
+                    manual vetting to ensure quality, and the
+                    measurement of global asteroseismic
+                    parameters.
+                </p>
+
+                <p>
+                    The final catalogue contains
+                    <strong>19,151 oscillating red giants</strong>,
+                    making it the largest catalogue of TESS red
+                    giants with homogeneously determined
+                    asteroseismic parameters to date. The
+                    measured ν<sub>max</sub> and Δν values have
+                    typical precisions of 1.5% and 1.0%,
+                    respectively.
+                </p>
+
+                <p>
+                    Combined with spectroscopic parameters, they
+                    provide stellar masses and radii with typical
+                    precisions of 7.5% and 2.8%, comparable to
+                    those achieved using four years of Kepler
+                    observations. The resulting seismic radii
+                    also show excellent agreement with independent
+                    Gaia radii.
+                </p>
+
+                <p>
+                    The resulting catalogue provides an
+                    opportunity to investigate the distribution
+                    and kinematics of red giants across the
+                    Galaxy. The analysis shows that low-mass
+                    stars lie farther from the Galactic plane
+                    and have larger velocities. These results
+                    reproduce several well-known Galactic trends
+                    and can therefore serve as an important
+                    dataset for Galactic archaeology
+                    (Sreenivas et al. 2026).
+                </p>
+
+            </article>
+
+
+            <!-- Project 4 -->
+
+            <article class="research-project" id="metal-poor">
+
+                <p class="eyebrow">Project 04</p>
+
+                <h3>
+                    Asteroseismology of the ultra metal-poor star
+                    BD+44° 493 using TESS
+                </h3>
+
+                <p>
+                    Large asteroseismic catalogues are important
+                    for improving current methodologies and
+                    testing them across different stellar
+                    populations. The resulting precise stellar
+                    parameters also provide valuable information
+                    for understanding the structure and properties
+                    of the Galactic neighbourhood.
+                </p>
+
+                <p>
+                    At the same time, large samples offer the
+                    opportunity to identify unusual stars and
+                    trends that may otherwise be missed,
+                    sometimes opening new directions for
+                    investigation. Working with such a large
+                    sample led to the discovery of an extremely
+                    metal-poor star showing solar-like
+                    oscillations. This provided an opportunity
+                    to move from global asteroseismic analysis
+                    of thousands of stars to detailed modelling
+                    of an individual and unusual system.
+                </p>
+
+                <p>
+                    The analysis involved extracting light curves
+                    directly from TESS Target Pixel Files (TPFs),
+                    detrending them using Co-trending Basis
+                    Vectors (CBVs), modelling individual
+                    oscillation frequencies, and performing
+                    stellar modelling in the metal-poor regime.
+                </p>
+
+                <p>
+                    This work expanded my experience from
+                    large-scale asteroseismic analysis to
+                    detailed frequency and stellar modelling
+                    of individual stars
+                    (Sreenivas et al. 2026b, in preparation).
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <a class="back-link" href="academic.html">
+            ← Back to Academic
+        </a>
+
+    </main>
+
+
+    <footer class="inner-footer">
+
+        SREENIVASAN K. R.
+
+        <span>RESEARCH</span>
+
+    </footer>
+
+</body>
+</html>
