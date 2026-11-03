@@ -329,11 +329,13 @@ a {
 }
 
 .lead {
-    max-width: 700px;
-
+    max-width: 900px;
     font-size: clamp(1.1rem, 2vw, 1.4rem);
-    line-height: 1.7;
+    line-height: 1.8;
     color: #62696a;
+
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .rule {
