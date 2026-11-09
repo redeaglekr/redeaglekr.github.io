@@ -648,13 +648,3 @@ a {
         padding-top: 22px;
     }
 }
-/* Orange links across the website */
-
-a,
-a:visited {
-    color: #f28c28 !important;
-}
-
-a:hover {
-    color: #d96b00 !important;
-}
