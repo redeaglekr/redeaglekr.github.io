@@ -332,7 +332,7 @@ a {
     max-width: 900px;
     font-size: clamp(1.1rem, 2vw, 1.4rem);
     line-height: 1.8;
-    color: #62696a;
+    color: #000000;
 
     text-align: justify;
     text-justify: inter-word;
@@ -373,7 +373,7 @@ a {
 .content-grid li {
     font-size: 1rem;
     line-height: 1.8;
-    color: #62696a;
+    color: #000000;
     text-align: justify;
     text-justify: inter-word;
 }
