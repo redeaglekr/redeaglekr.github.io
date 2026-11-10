@@ -262,7 +262,7 @@ a {
 }
 /* Academic page background */
 
-.academic-page{
+.inner-page{
     background-color: #ffffff;
     background-image: url("./space.png");
     background-size: cover;
