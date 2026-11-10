@@ -260,7 +260,18 @@ a {
     color: #000000;
     background: #ffffff;
 }
+/* Academic page background */
 
+.academic-page {
+    background-image:
+        linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.82)),
+        url("./space.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 /* Navigation */
 
 .site-nav {
