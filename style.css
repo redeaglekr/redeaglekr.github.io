@@ -262,17 +262,14 @@ a {
 }
 /* Academic page background */
 
-.inner-page {
+.academic-page {
     min-height: 100vh;
-    color: #000000;
-
-    background-image:
+    background:
         linear-gradient(
             rgba(255, 255, 255, 0.82),
             rgba(255, 255, 255, 0.82)
         ),
-        url("./space.png");
-
+        url("/space.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
