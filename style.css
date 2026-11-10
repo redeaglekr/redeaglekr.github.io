@@ -262,11 +262,9 @@ a {
 }
 /* Academic page background */
 
-.academic-page {
-    background-image:
-        linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.82)),
-        url("./space.png");
-
+.academic-page{
+    background-color: #ffffff;
+    background-image: url("./space.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
