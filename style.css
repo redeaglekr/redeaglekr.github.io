@@ -264,16 +264,12 @@ a {
 
 .academic-page {
     min-height: 100vh;
-    background:
-        linear-gradient(
-            rgba(255, 255, 255, 0.82),
-            rgba(255, 255, 255, 0.82)
-        ),
-        url("/space.png");
-    background-size: cover;
-    background-position: center;
+    background-color: #ffffff;
+    background-image: url("./space.png");
+    background-size: 100% auto;
+    background-position: top left;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 /* Navigation */
 
